@@ -15,6 +15,7 @@ public class RestAPILoginFailHandler implements AuthenticationFailureHandler {
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,
             AuthenticationException exception) throws IOException, ServletException {
 
+        System.out.println("fail .... >>");
         System.out.println(request);
         System.out.println(response);
 

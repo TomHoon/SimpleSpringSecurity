@@ -6,7 +6,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-@ㄲㄷ
 public class CustomAPILoginService implements UserDetailsService{
 
     @Override
